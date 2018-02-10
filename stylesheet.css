@@ -1,0 +1,37 @@
+"@charset "UTF-8";
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+#header{
+	height:70px;
+	width:100%;
+	background-color:Black;
+
+}
+
+.site-logo{
+	float:left;
+}
+
+#header-right{
+	float:right;
+}
+
+#header-right li{
+	display:inline-block;
+	color:white;
+
+}
+
+
+/*ここからメイン部分*/
+
+
+#main-left img{
+	width:800px;
+	height:550px;
+}
