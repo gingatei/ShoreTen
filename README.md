@@ -2,3 +2,5 @@
 
 
 Test
+
+Shaorei が追記したぜ！
