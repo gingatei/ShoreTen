@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+
+#inner-container{
+	display:block;
+
+}
+
+
+
+
+div.slider {
+    width:620px;
+    display:block;
+    margin:0px auto;
+    padding-top:50px;
+}
+
+ul.bxslider01 li {/*メインスライダー*/
+    display:block;
+    width:620px;
+    height:400px;
+}
+
+ul.bxslider01 li img{
+    display:block;
+    width:610px;
+    height:400px;
+}
+
+ul.bxslider02 li a {/*サムネイル*/
+    display:block;
+    width:100px;
+    height:60px;
+}
+
+ul.bxslider02 li a img{/*サムネイルの画像*/
+    display:block;
+    width:100px;
+    height:auto;
+}
+
+div.controlWrap {
+    width:620px;
+    display:block;
+    position:relative;
+    margin:0 auto;
+}
+
+div.controlWrap p#PrevIcon a{/*矢印画像（前へ）*/
+display: block;
+    width: 32px;
+    height: 40px;
+    position: absolute;
+    background: url(top/photogallery/controls.png) no-repeat 0 -31px;
+    color: #fff;
+    top: 20px;
+    left: -38px;
+    text-indent: -9999px;
+}
+
+div.controlWrap p#NextIcon a{/*矢印画像（次へ）*/
+display: block;
+    width: 32px;
+    height: 40px;
+    position: absolute;
+    background: url(top/photogallery/controls.png) no-repeat -43px -31px;
+    color: #fff;
+    top: 20px;
+    right: -38px;
+    text-indent: -9999px;
+}

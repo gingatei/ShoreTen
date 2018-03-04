@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+
+
+
+#main-container {
+
+}
+
+#inner-container {
+	padding-top: 10em;
+	padding-left: 4em;
+	display: flex;
+}
+
+#slide-pic-bg {
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	background: -webkit-repeating-linear-gradient(-45deg, #f5edfd, #f5edfd 5px, #fdfcff
+		5px, #fdfcff 10px);
+	background: repeating-linear-gradient(-45deg, #f5edfd, #f5edfd 5px, #fdfcff 5px,
+		#fdfcff 10px);
+	color: #4a1086;
+	padding: 10px;
+}
+
+#Slideshow {
+	width: 500px;
+}
+
+#slick {
+	width: 400px;
+}
+
+#slick img {
+	width: 400px;
+}
+
+#Site-info {
+	width: 700px;
+}
+
+#footer {
+	background-color: #000;
+	width: 100%;
+	height: 75px;
+}
+
+#site-info-bg {
+	position: relative;
+	padding: 20px;
+	width: 85%;
+	color: #fff; /* 文字色 */
+	background: rgba(49, 49, 49, 0.5); /*枠背景色*/
+	box-shadow: 0 10px 6px -6px #999;
+}
+
+#site-info-bg p {
+	opacity: 1;
+}
+
+#title {
+	position: absolute;
+	top: -1.5em;
+	padding: 0.25em 2em;
+	content: "";
+	color: #fff; /* タイトル文字色 */
+	font-weight: bold; /*太文字（必要なければ削除）*/
+	background-color: rgba(0, 0, 0, .5); /*テープ色*/
+	border-left: 2px dotted rgba(0, 0, 0, .1);
+	border-right: 2px dotted rgba(0, 0, 0, .1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	transform: rotate(-4deg);
+}
+
+.midasi {
+	font-size: 25px;
+	font-weight: bold;
+}
+

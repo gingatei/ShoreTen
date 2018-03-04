@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+#pic-comment {
+	display: flex;
+	width: 1200px;
+
+}
+
+/* 吹き出し本体 */
+.balloon{
+  position: relative;
+  margin-top:160px;
+  margin-left:30px;
+  padding: 20px;
+  height:70px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+}
+/* 色付きの半円 */
+.balloon::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  left: -17px;
+  top: 33px;
+  border-left: 20px solid #fff;
+  border-top: 20px solid #107b5e00;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+
+}
+/* 白い半円 */
+.balloon::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  left: -20px;
+  top: 22px;
+  border-left: 20px solid #bee2fc;
+  border-top: 20px solid #ffffff00;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.oretsuri{
+	display:inline-block;
+}
+
+.twitter{
+		display:inline-block;
+}
+
+.balloon img{
+	width:30px;
+	height:30px;
+}
+
+
+#profile-pic {
+	padding-left: 50px;
+}
+
+#profile-pic img {
+	margin-top: 30px;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+}
+
+#profile {
+	margin-top: 25px; position : relative;
+	padding: 20px;
+	width: 300px;
+	color: #fff; /* 文字色 */
+	background: rgba(49, 49, 49, 0.8); /*枠背景色*/
+	box-shadow: 0 10px 6px -6px #999;
+	position: relative;
+}
+
+#title {
+	position: absolute;
+	top: -1.5em;
+	padding: 0.25em 2em;
+	content: "";
+	color: #fff; /* タイトル文字色 */
+	font-weight: bold; /*太文字（必要なければ削除）*/
+	background-color: rgba(0, 0, 0, .5); /*テープ色*/
+	border-left: 2px dotted rgba(0, 0, 0, .1);
+	border-right: 2px dotted rgba(0, 0, 0, .1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	transform: rotate(-4deg);
+}
+
+table {
+	margin: 0 auto;
+}
+
+table td {
+	padding: 20px;
+}
